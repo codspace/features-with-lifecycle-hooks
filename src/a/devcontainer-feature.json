@@ -4,5 +4,6 @@
     "installsAfter": [
         "./b"
     ],
-    "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'"
+    "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'",
+    "postStartCommand": "${featureRootFolder}/embedded-script.sh"
 }
