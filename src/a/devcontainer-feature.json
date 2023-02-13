@@ -1,6 +1,6 @@
 {
     "id": "a",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "installsAfter": [
         "ghcr.io/codspace/features-with-lifecycle-hooks/b"
     ],
