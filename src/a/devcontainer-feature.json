@@ -1,9 +1,8 @@
 {
     "id": "a",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "installsAfter": [
         "ghcr.io/codspace/features-with-lifecycle-hooks/b"
     ],
-    "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'",
-    "postStartCommand": "${featureRootFolder}/embedded-script.sh"
+    "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'"
 }
