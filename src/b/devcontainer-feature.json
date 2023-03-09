@@ -1,5 +1,11 @@
 {
     "id": "b",
-    "version": "1.0.0",
-    "onCreateCommand": "touch b.onCreateCommand.testMarker && echo 'B-ON-CREATE-COMMAND'"
+    "version": "1.0.1",
+    "onCreateCommand": "touch b.onCreateCommand.testMarker && echo 'B-ON-CREATE-COMMAND'",
+    "customizations": {
+          "foo": {
+              "bar": "baz",
+              "b": true
+          }
+      }
 }
