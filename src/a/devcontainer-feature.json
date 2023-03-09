@@ -1,8 +1,20 @@
 {
     "id": "a",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "installsAfter": [
         "ghcr.io/codspace/features-with-lifecycle-hooks/b"
     ],
+  "customizations": {
+        "vscode": {
+            "settings": {
+                "go.toolsManagement.checkForUpdates": "local",
+                "telemetry.enableCrashReporter": true
+            }
+        },
+        "foo": {
+            "bar": "baz",
+            "a": true
+        }
+    },
     "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'"
 }
