@@ -1,6 +1,6 @@
 {
     "id": "a",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "installsAfter": [
         "ghcr.io/codspace/features-with-lifecycle-hooks/b"
     ],
@@ -16,5 +16,6 @@
             "a": true
         }
     },
-    "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'"
+    "onCreateCommand": "touch a.onCreateCommand.testMarker && echo 'A-ON-CREATE-COMMAND'",
+    "postStartCommand": "touch a.postStartCommand.testMarker && echo 'A-POST-START-COMMAND'"
 }

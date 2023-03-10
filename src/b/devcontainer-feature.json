@@ -1,6 +1,6 @@
 {
     "id": "b",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "onCreateCommand": "touch b.onCreateCommand.testMarker && echo 'B-ON-CREATE-COMMAND'",
     "customizations": {
           "foo": {
